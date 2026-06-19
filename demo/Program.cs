@@ -110,6 +110,19 @@ namespace HelloWorld
             //// Print the result
             //Console.WriteLine(lastName);
 
+            // \n is used to print somthing in the next line
+            // \t is used to pring somthing in the space
+            // \b is used to delete somthing in the message
+            //Console.WriteLine("Hello \nWorld");
+            //Console.WriteLine("Hello \tWorld");
+            //Console.WriteLine("Hel\blo");
+
+            //int x = 10;
+            //int y = 20;
+            //Console.WriteLine(x > y);  //return false
+
+
+
 
 
         }
