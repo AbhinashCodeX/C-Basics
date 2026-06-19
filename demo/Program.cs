@@ -1,6 +1,6 @@
 ﻿//Console.WriteLine("Hello, World!");
 
-using System;   
+using System;
 namespace HelloWorld
 {
     class Program
@@ -121,8 +121,19 @@ namespace HelloWorld
             //int y = 20;
             //Console.WriteLine(x > y);  //return false
 
+            //int x = 10;
+            //Console.WriteLine(x == 10);
 
-
+            //Console.WriteLine("Enter Your Age: ");
+            //int age = int.Parse(Console.ReadLine());
+            //if (age >= 18)
+            //{
+            //    Console.WriteLine("Your are Eligible to Vote Congratulations");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are not Eligible to Vote");
+            //}
 
 
         }
