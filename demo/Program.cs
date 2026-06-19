@@ -1,0 +1,106 @@
+﻿//Console.WriteLine("Hello, World!");
+
+using System;   
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string firstName = "John ";
+            //string lastName = "Doe";
+            //string name = firstName + lastName;
+            //Console.WriteLine(name);
+
+            //String interpolation 
+            //string firstName = "John";
+            //string lastName = "Doe";
+            //string name = $"My full name is: {firstName} {lastName}";
+            //string fname = $"My full name is: {firstName}{lastName}";
+            //Console.WriteLine(name);
+
+            //Data Types in C#
+            //int my_Num = 5;
+            //double dob_num = 5d;
+            //char my_char = 'A';
+            //bool my_bool = false;
+            //String my_str = "Hello World";
+
+            //Console.WriteLine(my_Num);
+            //Console.WriteLine(dob_num);
+            //Console.WriteLine(my_char);
+            //Console.WriteLine(my_bool);
+            //Console.WriteLine(my_str);
+
+
+            //Explicit Type Conversion
+            //double d = 5.6;
+            //int m = (int) d;
+            //Console.WriteLine(m);
+
+
+            //int myInt = 10;
+            //double myDouble = 5.25;
+            //bool myBool = true;
+
+            //Console.WriteLine(Convert.ToString(myInt));
+            //Console.WriteLine(Convert.ToString(myDouble));
+            //Console.WriteLine(Convert.ToString(myBool));
+
+
+            //User Input in c#
+            //Console.WriteLine("Enter your username:");
+            //string username = Console.ReadLine();
+            //Console.WriteLine("Hello Mr." + username + " now You are a c# developer ");
+            //Console.WriteLine("Enter your password:");
+            //string password = Console.ReadLine();
+            //Console.WriteLine("Hello Mr." + username + " now You are a c# developer and your password is:"+ password);
+
+
+            //Console.WriteLine("Enter your City Name:");
+            //string city = Console.ReadLine();
+            //Console.WriteLine("Your live in city: " + city);
+
+            //int x = 10;
+            //x += 5;
+            //x -= 5;
+            //x *= 4;
+            //x /= 2;
+            //Console.WriteLine(x);
+
+            //int x = 5;
+            //Console.WriteLine(x > 3 && x < 10);
+            //int x = 5;
+            //Console.WriteLine(x>3 || x<4);
+            //Console.WriteLine(Math.Max(100, 1000));
+            //Console.WriteLine(Math.Min(100, 1000));
+            //Console.WriteLine(Math.Sqrt(10));
+            //Console.WriteLine(Math.Abs(-10));
+            //Console.WriteLine(Math.Round(99.99));
+
+
+            //How to find the length of the txt using txt.Length
+            //string txt = "wsfbjvbjvbjkvejv";
+            //Console.WriteLine("Your Txt length is :" +txt.Length);
+
+
+            //Using of ToUpper() and ToLower()
+            //string txt = "Abhinsh";
+            //Console.WriteLine(txt.ToUpper());
+            //Console.WriteLine(txt.ToLower());
+
+            //String concatnation
+            //String first = "Abhinash";
+            //String last = "Panigrahi";
+            //String name = String.Concat(first, last);
+            //Console.WriteLine(name);
+
+            //To Access the index of the String
+            //String myString = "Abhinas";
+            //Console.WriteLine(myString[3]);
+
+
+
+        }
+    }
+}
