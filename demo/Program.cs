@@ -98,6 +98,17 @@ namespace HelloWorld
             //To Access the index of the String
             //String myString = "Abhinas";
             //Console.WriteLine(myString[3]);
+            //Console.WriteLine(myString.IndexOf("a"));
+
+            //string name = "John Doe";
+
+            //// Location of the letter D
+            //int charPos = name.IndexOf("D");
+
+            //// Get last name
+            //string lastName = name.Substring(charPos);
+            //// Print the result
+            //Console.WriteLine(lastName);
 
 
 
