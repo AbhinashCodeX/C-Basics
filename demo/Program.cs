@@ -251,6 +251,7 @@ namespace HelloWorld
             //Arrays
             String[] cars = {"Bus","Truck","","" };
             Console.WriteLine(cars[0]);
+            Console.WriteLine("Successfully cloned Git");
 
 
             }
