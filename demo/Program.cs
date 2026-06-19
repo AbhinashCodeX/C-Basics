@@ -248,7 +248,9 @@ namespace HelloWorld
             //        Console.WriteLine("Please Enter a valid Choice");
             //        break;
 
-
+            //Arrays
+            String[] cars = {"Bus","Truck","","" };
+            Console.WriteLine(cars[0]);
 
 
             }
