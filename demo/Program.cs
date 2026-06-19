@@ -211,7 +211,7 @@ namespace HelloWorld
             //workout = "Back Workout";
             //Console.WriteLine($"Today is tuesday and i am hitting {workout}");
 
-            //calculator by User choice 
+            ////calculator by User choice
             //Console.WriteLine("choose your choice");
             //Console.WriteLine("1.Add");
             //Console.WriteLine("2.Sub");
@@ -227,17 +227,21 @@ namespace HelloWorld
             //switch (c)
             //{
             //    case 1:
-                  
-            //     Console.WriteLine("Your first number is " + a + " second number is" + b + " sum is: "+  (a+b));
+
+            //        Console.WriteLine("Addition is:" + (a + b));
             //        break;
             //    case 2:
-            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " value is: " +(a-b));
+            //        Console.WriteLine("Difference is: " + (a - b));
             //        break;
             //    case 3:
-            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " prod is: " + (a*b));
+            //        Console.WriteLine("Product is: " + (a * b));
             //        break;
             //    case 4:
-            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " div is: " + (a/b));
+            //        if (b != 0)
+            //        {
+            //            Console.WriteLine("Division is: " + (a / b));
+            //        }else
+            //            Console.WriteLine("Cannot be divided By zero");
             //        break;
 
             //    default:
@@ -249,15 +253,8 @@ namespace HelloWorld
 
             }
 
-      
+    }
 
+}
 
-
-
-
-        }
-
-
-        }
-
-   }
+   
