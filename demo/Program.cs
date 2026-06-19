@@ -1,6 +1,7 @@
 ﻿//Console.WriteLine("Hello, World!");
 
 using System;
+using System.Threading.Channels;
 namespace HelloWorld
 {
     class Program
@@ -186,10 +187,77 @@ namespace HelloWorld
             //}
 
 
+            //for each in C#
+            //string[] cars = { "car", "bus", "truck", "auto" };
+            //foreach (string i in cars) {
+            //    Console.WriteLine(i);
+            //}
+            //}
+
+            //int i = 0;
+            //while (i < 10)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //    if (i == 4)
+            //    {
+            //        break;
+            //    }
+            //}
+
+            //string workout;
+            //workout = "Chest Workout";
+            //Console.WriteLine($"Today is monday and i am hitting {workout}");
+            //workout = "Back Workout";
+            //Console.WriteLine($"Today is tuesday and i am hitting {workout}");
+
+            //calculator by User choice 
+            //Console.WriteLine("choose your choice");
+            //Console.WriteLine("1.Add");
+            //Console.WriteLine("2.Sub");
+            //Console.WriteLine("3.Mul");
+            //Console.WriteLine("4.Div");
+            //int c = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your First number: ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your Second number: ");
+            //int b = int.Parse(Console.ReadLine());
+
+            //switch (c)
+            //{
+            //    case 1:
+                  
+            //     Console.WriteLine("Your first number is " + a + " second number is" + b + " sum is: "+  (a+b));
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " value is: " +(a-b));
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " prod is: " + (a*b));
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Your first number is " + a + " second number is" + b + " div is: " + (a/b));
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Please Enter a valid Choice");
+            //        break;
+
+
 
 
             }
 
-        }
-    }
+      
 
+
+
+
+
+        }
+
+
+        }
+
+   }
