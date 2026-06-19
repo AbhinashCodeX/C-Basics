@@ -136,6 +136,60 @@ namespace HelloWorld
             //}
 
 
+            //int day = 4;
+            //switch (day)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Monday");
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("Tuesday");
+            //        break;
+
+            //    case 3:
+            //        Console.WriteLine("Wednesday");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Thursday");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Friday");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Saturday");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Sunday");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Moving Forward to Weekend");
+            //        break;
+
+            //int i = 0;
+            //while (i<5)
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}
+
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine(i);
+            //    i++;
+            //} while (i<5);
+
+            //for(int i=1; i <5; i++)
+            //{
+            //    Console.WriteLine("Hello "+i);
+            //}
+
+
+
+
+            }
+
         }
     }
-}
+
