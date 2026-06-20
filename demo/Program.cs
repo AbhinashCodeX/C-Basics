@@ -249,11 +249,34 @@ namespace HelloWorld
             //        break;
 
             //Arrays
-            String[] cars = {"Bus","Truck","","" };
-            Console.WriteLine(cars[0]);
+            //String[] cars = {"Bus","Truck","","" };
+            //Console.WriteLine(cars[0]);
 
 
+            //Finding the sum  of the Arrays 
+            //int[] nums = {10,20,30,40,50,60};
+            //int sum = 0;
+            //for(int i=0; i < nums.Length; i++)
+            //{
+            //    sum += nums[i];
+            //}
+            //Console.WriteLine("Sum of the Array is: "+ sum);
+
+            //using while loops
+            int[] nums = { 10, 20, 30, 40, 50, 60 };
+            int sum = 0;
+            int i = 0;
+            while(i< nums.Length)
+            {
+                sum += nums[i];
+                i++;
             }
+            Console.WriteLine("Sum of the Arrays is : " + sum);
+
+
+
+
+        }
 
     }
 
