@@ -251,6 +251,9 @@ namespace HelloWorld
             //Arrays
             String[] cars = {"Bus","Truck","","" };
             Console.WriteLine(cars[0]);
+            int[] num = {1,2,3,4,5};
+            Console.WriteLine(num[3]);
+
 
 
             }
