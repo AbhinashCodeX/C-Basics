@@ -2,6 +2,8 @@
 
 using System;
 using System.Threading.Channels;
+using System.Linq;
+
 namespace HelloWorld
 {
     class Program
@@ -263,16 +265,36 @@ namespace HelloWorld
             //Console.WriteLine("Sum of the Array is: "+ sum);
 
             //using while loops
-            int[] nums = { 10, 20, 30, 40, 50, 60 };
-            int sum = 0;
-            int i = 0;
-            while(i< nums.Length)
-            {
-                sum += nums[i];
-                i++;
-            }
-            Console.WriteLine("Sum of the Arrays is : " + sum);
+            //int[] nums = { 10, 20, 30, 40, 50, 60 };
+            //int sum = 0;
+            //int i = 0;
+            //while(i< nums.Length)
+            //{
+            //    sum += nums[i];
+            //    i++;
+            //}
+            //Console.WriteLine("Sum of the Arrays is : " + sum);
 
+            //shorting of the Arrays in numbers
+            //int[] num = {7,6,4,3,2 };
+            //Array.Sort(num);
+            //foreach(int i in num)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //To - Sort an Array of String 
+            //String[] name = {"Abhinash","Satya","Rohan","Abhisekh" };
+            //Array.Sort(name);
+            //foreach(String s in name)
+            //{
+            //    Console.WriteLine(s);
+            //}
+
+            int[] num = { 3, 5, 3, 2, 4, 5, 9 };
+            Console.WriteLine(num.Max()); //To find a maximum Number
+            Console.WriteLine(num.Min()); // To find the minimum number
+            Console.WriteLine(num.Sum()); // to find the sum of the Array 
 
 
 
