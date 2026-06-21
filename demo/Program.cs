@@ -27,16 +27,25 @@ namespace HelloWorld
         //    Console.WriteLine(country);
         //}
 
-        static int sum(int a , int b)
-        {
-            return a+b;
-        }
+        //static int sum(int a , int b)
+        //{
+        //    return a+b;
+        //}
 
+        //static int PlusMethodInt(int x, int y)
+        //{
+        //    return x + y;
+        //}
+
+        //static double PlusMethodDouble(double x, double y)
+        //{
+        //    return x + y;
+        //}
 
         static void Main(string[] args)
         {
             //string firstName = "John ";
-            //string lastName = "Doe";
+            //string lastName = "Doe"; 
             //string name = firstName + lastName;
             //Console.WriteLine(name);
 
@@ -333,12 +342,18 @@ namespace HelloWorld
             //MyMethod();
             //MyMethod("USA");
 
-            Console.WriteLine("Enter First Numbers: ");
-            int a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter Second Numbers: ");
-            int b = int.Parse(Console.ReadLine());
-            Console.WriteLine(sum(a,b));
+            //Console.WriteLine("Enter First Numbers: ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Second Numbers: ");
+            //int b = int.Parse(Console.ReadLine());
+            //Console.WriteLine(sum(a,b));
 
+
+            //Method Overloading
+            //int myNum1 = PlusMethodInt(8, 5);
+            //double myNum2 = PlusMethodDouble(4.3, 6.26);
+            //Console.WriteLine("Int: " + myNum1);
+            //Console.WriteLine("Double: " + myNum2);
 
 
 
