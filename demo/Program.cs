@@ -8,6 +8,31 @@ namespace HelloWorld
 {
     class Program
     {
+        //How to take a method reference
+        //static void Myprogram()
+        //{
+        //    Console.WriteLine("Hello");
+        //}
+
+        //Method having Parameter
+        //static void Myprogram(string greet)   
+        //{
+        //    Console.WriteLine(greet + "Hello");
+        //}
+
+
+        //Default Method
+        //static void MyMethod(string country = "Norway")
+        //{
+        //    Console.WriteLine(country);
+        //}
+
+        static int sum(int a , int b)
+        {
+            return a+b;
+        }
+
+
         static void Main(string[] args)
         {
             //string firstName = "John ";
@@ -291,10 +316,31 @@ namespace HelloWorld
             //    Console.WriteLine(s);
             //}
 
-            int[] num = { 3, 5, 3, 2, 4, 5, 9 };
-            Console.WriteLine(num.Max()); //To find a maximum Number
-            Console.WriteLine(num.Min()); // To find the minimum number
-            Console.WriteLine(num.Sum()); // to find the sum of the Array 
+            //int[] num = { 3, 5, 3, 2, 4, 5, 9 };
+            //Console.WriteLine(num.Max()); //To find a maximum Number
+            //Console.WriteLine(num.Min()); // To find the minimum number
+            //Console.WriteLine(num.Sum()); // to find the sum of the Array 
+
+
+            //Method can be called multiple times
+            //Myprogram();
+            //Myprogram();
+            //Myprogram();
+
+
+            //MyMethod("Sweden");   //Examples of Default Method
+            //MyMethod("India");
+            //MyMethod();
+            //MyMethod("USA");
+
+            Console.WriteLine("Enter First Numbers: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Second Numbers: ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine(sum(a,b));
+
+
+
 
 
 
