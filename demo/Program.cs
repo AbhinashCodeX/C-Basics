@@ -8,10 +8,44 @@ namespace HelloWorld
 {
     class Program
     {
+        //How to take a method reference
+        //static void Myprogram()
+        //{
+        //    Console.WriteLine("Hello");
+        //}
+
+        //Method having Parameter
+        //static void Myprogram(string greet)   
+        //{
+        //    Console.WriteLine(greet + "Hello");
+        //}
+
+
+        //Default Method
+        //static void MyMethod(string country = "Norway")
+        //{
+        //    Console.WriteLine(country);
+        //}
+
+        //static int sum(int a , int b)
+        //{
+        //    return a+b;
+        //}
+
+        //static int PlusMethodInt(int x, int y)
+        //{
+        //    return x + y;
+        //}
+
+        //static double PlusMethodDouble(double x, double y)
+        //{
+        //    return x + y;
+        //}
+
         static void Main(string[] args)
         {
             //string firstName = "John ";
-            //string lastName = "Doe";
+            //string lastName = "Doe"; 
             //string name = firstName + lastName;
             //Console.WriteLine(name);
 
@@ -295,6 +329,36 @@ namespace HelloWorld
             //Console.WriteLine(num.Max()); //To find a maximum Number
             //Console.WriteLine(num.Min()); // To find the minimum number
             //Console.WriteLine(num.Sum()); // to find the sum of the Array 
+<<<<<<< HEAD
+=======
+
+
+            //Method can be called multiple times
+            //Myprogram();
+            //Myprogram();
+            //Myprogram();
+
+
+            //MyMethod("Sweden");   //Examples of Default Method
+            //MyMethod("India");
+            //MyMethod();
+            //MyMethod("USA");
+
+            //Console.WriteLine("Enter First Numbers: ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter Second Numbers: ");
+            //int b = int.Parse(Console.ReadLine());
+            //Console.WriteLine(sum(a,b));
+
+
+            //Method Overloading
+            //int myNum1 = PlusMethodInt(8, 5);
+            //double myNum2 = PlusMethodDouble(4.3, 6.26);
+            //Console.WriteLine("Int: " + myNum1);
+            //Console.WriteLine("Double: " + myNum2);
+
+
+>>>>>>> 65064daa95126ef6bd1cc09b691063df5da40eb7
 
 
 
