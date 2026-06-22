@@ -291,10 +291,10 @@ namespace HelloWorld
             //    Console.WriteLine(s);
             //}
 
-            int[] num = { 3, 5, 3, 2, 4, 5, 9 };
-            Console.WriteLine(num.Max()); //To find a maximum Number
-            Console.WriteLine(num.Min()); // To find the minimum number
-            Console.WriteLine(num.Sum()); // to find the sum of the Array 
+            //int[] num = { 3, 5, 3, 2, 4, 5, 9 };
+            //Console.WriteLine(num.Max()); //To find a maximum Number
+            //Console.WriteLine(num.Min()); // To find the minimum number
+            //Console.WriteLine(num.Sum()); // to find the sum of the Array 
 
 
 
