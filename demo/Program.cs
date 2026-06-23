@@ -42,6 +42,9 @@ namespace HelloWorld
         //    return x + y;
         //}
 
+        //string color = "red";
+        //int maxSpeed = 200;
+
         static void Main(string[] args)
         {
             //string firstName = "John ";
@@ -350,11 +353,16 @@ namespace HelloWorld
 
 
             //Method Overloading
-            //int myNum1 = PlusMethodInt(8, 5);
+            //int myNum1 = PlusMethodInt(8, 5);                         
             //double myNum2 = PlusMethodDouble(4.3, 6.26);
             //Console.WriteLine("Int: " + myNum1);
             //Console.WriteLine("Double: " + myNum2);
 
+
+            //Fields and objects in Class
+            //Program myObj = new Program();
+            //Console.WriteLine(myObj.color);
+            //Console.WriteLine(myObj.maxSpeed);
 
 
 
