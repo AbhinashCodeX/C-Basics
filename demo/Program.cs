@@ -65,15 +65,15 @@ namespace HelloWorld
         //    model = "Audi";
         //}
 
-        public string name;
-        public string designation;
-        public int salary;
+        //public string name;
+        //public string designation;
+        //public int salary;
 
-        public Program(string fullname, string fulldesignation , int fullsalary ) {
-            name = fullname;
-            designation = fulldesignation;
-            salary = fullsalary;
-        }
+        //public Program(string fullname, string fulldesignation , int fullsalary ) {
+        //    name = fullname;
+        //    designation = fulldesignation;
+        //    salary = fullsalary;
+        //}
         
 
         static void Main(string[] args)
@@ -412,8 +412,8 @@ namespace HelloWorld
             //Program p = new Program();
             //p.fullthrottle();
 
-            Program prog = new Program("Abhinash Panigrahi","ASP.NET Developer",20000);
-            Console.WriteLine(prog.name+"" + prog.designation+""+prog.salary);
+            //Program prog = new Program("Abhinash Panigrahi","ASP.NET Developer",20000);
+            //Console.WriteLine(prog.name+"" + prog.designation+""+prog.salary);
 
 
         }
