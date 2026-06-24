@@ -329,8 +329,7 @@ namespace HelloWorld
             //Console.WriteLine(num.Max()); //To find a maximum Number
             //Console.WriteLine(num.Min()); // To find the minimum number
             //Console.WriteLine(num.Sum()); // to find the sum of the Array 
-<<<<<<< HEAD
-=======
+    
 
 
             //Method can be called multiple times
@@ -358,7 +357,7 @@ namespace HelloWorld
             //Console.WriteLine("Double: " + myNum2);
 
 
->>>>>>> 65064daa95126ef6bd1cc09b691063df5da40eb7
+
 
 
 
