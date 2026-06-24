@@ -3,6 +3,7 @@
 using System;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Channels;
 
 namespace HelloWorld
@@ -48,10 +49,32 @@ namespace HelloWorld
         //double version;
 
 
-        public void fullthrottle()
-        {
-            Console.WriteLine("The car is going fast as it can!");
+        //public void fullthrottle()  //without static keyword
+        //{
+        //    Console.WriteLine("The car is going fast as it can!");
+        //}
+
+        //static void sleep()  //with static 
+        //{
+        //    Console.WriteLine("I am sleepy");
+        //}
+
+        //public string model;
+        //public Program()
+        //{
+        //    model = "Audi";
+        //}
+
+        public string name;
+        public string designation;
+        public int salary;
+
+        public Program(string fullname, string fulldesignation , int fullsalary ) {
+            name = fullname;
+            designation = fulldesignation;
+            salary = fullsalary;
         }
+        
 
         static void Main(string[] args)
         {
@@ -381,10 +404,16 @@ namespace HelloWorld
             //Console.WriteLine(p.version);
 
             //how to call and method using the object of the class 
-            Program p = new Program();
-            p.fullthrottle();
+            //Program p = new Program();
+            //p.fullthrottle();   
 
 
+            //Program.sleep(); //with static 
+            //Program p = new Program();
+            //p.fullthrottle();
+
+            Program prog = new Program("Abhinash Panigrahi","ASP.NET Developer",20000);
+            Console.WriteLine(prog.name+"" + prog.designation+""+prog.salary);
 
 
         }
