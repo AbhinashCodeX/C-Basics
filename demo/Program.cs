@@ -1,8 +1,9 @@
 ﻿//Console.WriteLine("Hello, World!");
 
 using System;
-using System.Threading.Channels;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Threading.Channels;
 
 namespace HelloWorld
 {
@@ -42,8 +43,15 @@ namespace HelloWorld
         //    return x + y;
         //}
 
-        //string color = "red";
-        //int maxSpeed = 200;
+        //string color;
+        //int maxSpeed;
+        //double version;
+
+
+        public void fullthrottle()
+        {
+            Console.WriteLine("The car is going fast as it can!");
+        }
 
         static void Main(string[] args)
         {
@@ -332,7 +340,7 @@ namespace HelloWorld
             //Console.WriteLine(num.Max()); //To find a maximum Number
             //Console.WriteLine(num.Min()); // To find the minimum number
             //Console.WriteLine(num.Sum()); // to find the sum of the Array 
-    
+
 
 
             //Method can be called multiple times
@@ -364,10 +372,18 @@ namespace HelloWorld
             //Console.WriteLine(myObj.color);
             //Console.WriteLine(myObj.maxSpeed);
 
-<<<<<<< HEAD
+            //Program p = new Program();
+            //p.color = "red";
+            //    p.maxSpeed = 100;
+            //p.version = 1.0;
+            //Console.WriteLine(p.color);
+            //Console.WriteLine(p.maxSpeed);
+            //Console.WriteLine(p.version);
 
-=======
->>>>>>> 3ad9e073009ad35eccc8c111a08fa139d8de5ed7
+            //how to call and method using the object of the class 
+            Program p = new Program();
+            p.fullthrottle();
+
 
 
 
