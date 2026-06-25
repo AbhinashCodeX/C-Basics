@@ -1,5 +1,6 @@
 ﻿//Console.WriteLine("Hello, World!");
 
+using demo;
 using System;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
@@ -8,7 +9,7 @@ using System.Threading.Channels;
 
 namespace HelloWorld
 {
-    class Program
+    class Program   
     {
         //How to take a method reference
         //static void Myprogram()
@@ -75,6 +76,7 @@ namespace HelloWorld
         //    salary = fullsalary;
         //}
         
+
 
         static void Main(string[] args)
         {
@@ -415,6 +417,18 @@ namespace HelloWorld
             //Program prog = new Program("Abhinash Panigrahi","ASP.NET Developer",20000);
             //Console.WriteLine(prog.name+"" + prog.designation+""+prog.salary);
 
+            //Person myObj = new Person();
+            //myObj.Name = "Shivam";
+            //Console.WriteLine(myObj.Name);
+
+           // Passing the variable in constructor using member variable
+            Constructor1 bmw = new Constructor1("BMW", "B7");
+            Constructor1 audi = new Constructor1("Audi", "A9");
+
+            Console.WriteLine("Please Enter the Brand Name:");
+            bmw.Brand = Console.ReadLine()??"";
+            Console.WriteLine("Brand is: "+bmw.Brand);
+            Console.ReadKey();
 
         }
 
