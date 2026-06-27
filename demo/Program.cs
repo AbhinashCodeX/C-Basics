@@ -435,6 +435,8 @@ namespace HelloWorld
             Console.WriteLine("Brand is: "+bmw.Brand);
             Console.ReadKey();
 
+            //will learn inheritance
+            Console.WriteLine("I will Learn Inheritance ");
         }
 
     }
