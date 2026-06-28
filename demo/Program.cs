@@ -422,21 +422,21 @@ namespace HelloWorld
             //Console.WriteLine(myObj.Name);
 
            // Passing the variable in constructor using member variable
-            Constructor1 bmw = new Constructor1("BMW", "B7",true);
-            Constructor1 audi = new Constructor1("Audi", "A9",false);
+            //Constructor1 bmw = new Constructor1("BMW", "B7",true);
+            //Constructor1 audi = new Constructor1("Audi", "A9",false);
 
 
-            //Getting Brand 
-            Console.WriteLine("Brand is: " + audi.Brand);
-            Console.WriteLine("Brand is: " + bmw.Model);
+            ////Getting Brand 
+            //Console.WriteLine("Brand is: " + audi.Brand);
+            //Console.WriteLine("Brand is: " + bmw.Model);
 
-            Console.WriteLine("Please Enter the Brand Name:");
-            bmw.Brand = Console.ReadLine()??"";
-            Console.WriteLine("Brand is: "+bmw.Brand);
-            Console.ReadKey();
+            //Console.WriteLine("Please Enter the Brand Name:");
+            //bmw.Brand = Console.ReadLine()??"";
+            //Console.WriteLine("Brand is: "+bmw.Brand);
+            //Console.ReadKey();
 
-            //will learn inheritance
-            Console.WriteLine("I will Learn Inheritance ");
+            ////will learn inheritance
+            //Console.WriteLine("I will Learn Inheritance ");
         }
 
     }
