@@ -75,9 +75,12 @@ namespace HelloWorld
         //    designation = fulldesignation;
         //    salary = fullsalary;
         //}
-        
 
-
+        //reference original value
+        //static void Change(ref int x)
+        //{
+        //    x = x + 20;
+        //}
         static void Main(string[] args)
         {
             //string firstName = "John ";
@@ -421,7 +424,7 @@ namespace HelloWorld
             //myObj.Name = "Shivam";
             //Console.WriteLine(myObj.Name);
 
-           // Passing the variable in constructor using member variable
+            // Passing the variable in constructor using member variable
             //Constructor1 bmw = new Constructor1("BMW", "B7",true);
             //Constructor1 audi = new Constructor1("Audi", "A9",false);
 
@@ -437,6 +440,29 @@ namespace HelloWorld
 
             ////will learn inheritance
             //Console.WriteLine("I will Learn Inheritance ");
+
+
+            //reference 
+            //int number = 10;
+            //Change(ref number);
+            //Console.WriteLine(number
+            
+            //One method can return multiple values
+            void Calculate(int a, int b, out int sum, out int product)
+            {
+                sum = a + b;
+                product = a * b;
+            }
+
+            int s;
+            int p;
+
+            Calculate(10, 5, out s, out p);
+
+            Console.WriteLine(s);
+            Console.WriteLine(p);
+
+
         }
 
     }
