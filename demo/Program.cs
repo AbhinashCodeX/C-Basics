@@ -81,6 +81,17 @@ namespace HelloWorld
         //{
         //    x = x + 20;
         //}
+     //Using static keyword so that we dont need to created the object of the class multiple times
+        //static int addtwovalues(int a, int b)
+        //{
+        //    int result = a + b;
+        //    return result;
+        //}
+        //static int subtwovalues(int a, int b)
+        //{
+        //    int result = a - b;
+        //    return result;
+        //}
         static void Main(string[] args)
         {
             //string firstName = "John ";
@@ -446,27 +457,33 @@ namespace HelloWorld
             //int number = 10;
             //Change(ref number);
             //Console.WriteLine(number
-            
+
             //One method can return multiple values
-            void Calculate(int a, int b, out int sum, out int product)
-            {
-                sum = a + b;
-                product = a * b;
-            }
+            //void Calculate(int a, int b, out int sum, out int product)
+            //{
+            //    sum = a + b;
+            //    product = a * b;
+            //}
 
-            int s;
-            int p;
+            //int s;
+            //int p;
 
-            Calculate(10, 5, out s, out p);
+            //Calculate(10, 5, out s, out p);
 
-            Console.WriteLine(s);
-            Console.WriteLine(p);
+            //Console.WriteLine(s);
+            //Console.WriteLine(p);
 
+            //------>>>>>>>>>>>>learned the use of the static keyword
+            //int myresult;
+            //Console.WriteLine("Enter a number and i'll add 10 to it:");
+            //int num = int.Parse(Console.ReadLine());
 
+            //myresult = addtwovalues(num,10);
+            //Console.WriteLine("Your result is:  "+myresult);
+            //Console.ReadKey();
         }
 
     }
 
 }
-
    
